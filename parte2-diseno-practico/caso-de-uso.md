@@ -1,7 +1,7 @@
 # Parte 2: Caso de Uso
 
 **ID:**  CU-01
-**Nombre:** Reportar Contenido
+**Nombre:** Reportar Contenido Inapropiado
 
 **Actor Principal:**  Usuario registrado
 **Actores Secundarios:** Moderador
