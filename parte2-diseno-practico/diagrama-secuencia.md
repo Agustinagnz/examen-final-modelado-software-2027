@@ -17,7 +17,7 @@ sequenceDiagram
     
     alt FA1: 7a. Reporte duplicado detectado
         Sistema-->>Usuario: Informa que ya existe un reporte pendiente
-        Note over Usuario, Sistema: El caso de uso finaliza
+        Note over Usuario,Sistema: El caso de uso finaliza
     else Reporte válido
         Sistema->>Sistema: Registra el reporte con estado "Pendiente"
         Sistema->>Sistema: Asocia el reporte al usuario y contenido
@@ -37,6 +37,6 @@ sequenceDiagram
         
         Sistema->>Sistema: Registra la fecha y el moderador responsable
         Sistema->>Usuario: Genera notificación con el resultado del proceso
-        Note over Usuario, Sistema, Moderador: El caso de uso finaliza
+        Note over Usuario,Sistema: El caso de uso finaliza
     end
 ```
