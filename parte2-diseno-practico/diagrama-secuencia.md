@@ -1,3 +1,4 @@
+```mermaid
 sequenceDiagram
     autonumber
     actor Usuario as Usuario Registrado
@@ -38,3 +39,4 @@ sequenceDiagram
         Sistema->>Usuario: Genera notificación con el resultado del proceso
         Note over Usuario, Sistema, Moderador: El caso de uso finaliza
     end
+```
